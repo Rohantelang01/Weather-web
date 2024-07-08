@@ -1,0 +1,122 @@
+*{
+    
+    margin: 0px;
+    padding:0px;
+}
+.container{
+    display:grid;
+    grid-template-columns:30% 70%;
+}
+.leftctr{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    background-color: rgb(255, 255, 255);
+   
+}
+.rightctr{
+    background-color: rgb(232, 232, 255);
+    
+}
+.searchbar{
+    width: 100%;
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.input{
+    padding: 4px 30px;
+    width: 70%;
+    margin: 30px 0px;
+    border-radius: 8px;
+}
+.searchIcun{
+    width: 18px;
+    margin-left: -25px;
+}
+.curentWeather,.currentTime{
+    width: 100%;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.curentWeatherPng{
+    width: 25%;
+    margin: 30px;
+}
+.superscript{
+    vertical-align: text-bottom;
+    font-size: 25px;
+    
+}
+hr{
+    width: 70%;
+    margin: 40px 0px;
+border: 1px solid black;
+border-radius: 4px;
+}
+h2{
+    font-size: 50px;
+}
+.daysCtr{
+    height: 5%;
+    display: flex;
+    
+    align-items: center;
+    margin: 30px 10px 4px 10px ;
+    border-radius: 10px;
+    background-color: rgb(229, 214, 239);
+
+}
+.daysCtr h2{
+    font-size: 100%;
+    margin: 0px 10px;
+}
+.weatherAllDetials{
+    background-color: rgb(110, 216, 235);
+    margin: 10px;
+    border-radius: 10px;
+    height: 65%;
+    display: grid;
+    grid-template-rows: 33% 33% 33%;
+    grid-template-columns: 33% 33% 33%;
+}
+
+.todayTimetemp{
+   display: flex;
+   height: 22vh;
+   width: auto;
+   margin: 0px 10px;
+   background-color: rgb(147, 122, 214);
+   overflow-x: auto;
+   border-radius: 10px;
+}
+.todayTimetemp::-webkit-scrollbar{
+    height: 0px;
+}
+
+
+.hours{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border-radius: 10px;
+    padding: 10px;
+    gap: 5px;
+    background-color: rgb(255, 249, 249);
+    margin: 5px;
+    min-width: 130px;
+    height: auto
+    
+
+}
+
+.hours img{
+    width: 50px;
+}
